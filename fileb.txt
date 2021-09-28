@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ddthis is fileoniversion1b
+=======
+'this is fileB version2 git hub'
+>>>>>>> edcfac1bf14d571ecd20952a135c17b89415ae13

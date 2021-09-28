@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 B
 C
 this is filea
+=======
+'this is fileA version1 ghigdjdj' check me now
+>>>>>>> edcfac1bf14d571ecd20952a135c17b89415ae13
