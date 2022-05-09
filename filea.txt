@@ -1,7 +1,28 @@
-<<<<<<< HEAD
-B
-C
-this is filea
-=======
-'this is fileA version1 ghigdjdj' check me now
->>>>>>> edcfac1bf14d571ecd20952a135c17b89415ae13
+az storage account management-policy create --account-name mystore555 --policy '/home/goformunish/Downloads/policy.json' --resource-group demorg
+
+{
+  "rules": [
+    {
+      "enabled": true,
+      "name": "tst1",
+      "type": "Lifecycle",
+      "definition": {
+        "actions": {
+          "baseBlob": {
+            "delete": {
+              "daysAfterModificationGreaterThan": 30
+            }
+          }
+        },
+        "filters": {
+          "blobTypes": [
+            "blockBlob"
+          ],
+          "prefixMatch": [
+            "db-backup"
+          ]
+        }
+      }
+    }
+  ]
+}
